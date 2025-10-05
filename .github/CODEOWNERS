@@ -1,0 +1,6 @@
+# Require review from the Reviewers team for everything
+* @ProjectTotem/Reviewers
+
+# Optional: restrict specific areas to certain teams
+/backend/ @ProjectTotem/Devs
+/art/ @ProjectTotem/Art
