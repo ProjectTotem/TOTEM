@@ -1,0 +1,32 @@
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Environment variables (never commit secrets)
+.env
+.env.local
+.env.*.local
+
+# Editor / IDE configs
+.vscode/
+.idea/
+*.code-workspace
+
+# Build artifacts
+/dist/
+build/
+output/
+out/
+*.exe
+*.apk
+*.zip
+*.tar.gz
+
+# Dependencies (if applicable)
+node_modules/
+Packages/
