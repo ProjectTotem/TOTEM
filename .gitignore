@@ -1,0 +1,72 @@
+# --- OS Junk ---
+.DS_Store
+Thumbs.db
+
+# --- Logs & Temp ---
+*.log
+*.tmp
+*.bak
+
+# --- Environment / Secrets ---
+.env
+.env.local
+.env.*.local
+keys/
+*.key
+*.pem
+*.der
+*.crt
+*.pfx
+*.p12
+*.bin
+*.json.enc
+
+# --- Editor / IDE Files ---
+.vscode/
+.idea/
+*.code-workspace
+*.user
+*.userprefs
+
+# --- Build & Output ---
+build/
+dist/
+out/
+export/
+*.exe
+*.apk
+*.zip
+*.tar.gz
+
+# --- Node / Web ---
+node_modules/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Unity ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+*.unityproj
+*.suo
+*.tmp
+*.user
+*.userprefs
+
+# --- Godot ---
+.import/
+.export/
+.export_presets.cfg
+.project_metadata/
+mono_temp/
+*.mono
+
+# --- Version Control ---
+*.orig
